@@ -1,7 +1,7 @@
 {
-  "name": "JATE",
+  "name": "jate",
   "version": "1.0.0",
-  "description": "",
+  "description": "PWA Text Editor",
   "main": "server.js",
   "scripts": {
     "start:dev": "",
@@ -16,7 +16,9 @@
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "if-env": "^1.0.4"
+    "idb": "^7.1.1",
+    "if-env": "^1.0.4",
+    "workbox-webpack-plugin": "^7.0.0"
   },
   "devDependencies": {
     "concurrently": "^5.2.0",
